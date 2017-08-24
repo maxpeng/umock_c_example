@@ -18,4 +18,4 @@ include_directories(${PROJECT_SOURCE_DIR}/src)
 add_executable(umock_example_pythagorean ${SOURCE_FILES})
 
 # link against math library.
-target_link_libraries(m)
+target_link_libraries(umock_example_pythagorean m)

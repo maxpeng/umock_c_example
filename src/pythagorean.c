@@ -1,4 +1,4 @@
-#include "pythogorean.h"
+#include "pythagorean.h"
 #include "square_root.h"
 
 

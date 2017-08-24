@@ -12,6 +12,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${UMOCK_C_INC_DIR})
 include_directories(${TEST_RUNNER_INC_DIR})
 include_directories(${CTEST_INC_DIR})
+include_directories(${PROJECT_SOURCE_DIR}/src)
 
 
 add_executable(umock_example ${SOURCE_FILES})

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "pythogorean.h"
+#include "pythagorean.h"
 
 int main(void)
 {

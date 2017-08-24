@@ -17,7 +17,7 @@ umock_c_example
 ├── CMakeLists.txt           --> main cmake configuration files
 ├── LICENSE
 ├── readme.md
-├── src                      --> pythagoream example
+├── src                      --> pythagorean example
 │   ├── CMakeLists.txt
 │   ├── main.c
 │   ├── pythagorean.c

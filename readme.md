@@ -13,7 +13,7 @@ to mock C files for unit test.
 ## Directory Structure
 
 ```
-umock_
+umock_c_example
 ├── CMakeLists.txt           --> main cmake configuration files
 ├── LICENSE
 ├── readme.md
@@ -27,7 +27,7 @@ umock_
 ├── tests                    --> unit test against pythagoren.c
 │   ├── CMakeLists.txt
 │   └── pythagorean_ut       --> unit test by umock_c
-└── testtools
+└── testtools                --> unit test tools
     ├── CMakeLists.txt
     ├── ctest                --> ctest unit test library 
     ├── test_runner          --> test runner

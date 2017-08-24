@@ -24,7 +24,7 @@ umock_c_example
 │   ├── pythagorean.h
 │   ├── square_root.c        --> dependency of pythagorean.c
 │   └── square_root.h
-├── tests                    --> unit test against pythagoren.c
+├── tests                    --> unit test against pythagorean.c
 │   ├── CMakeLists.txt
 │   └── pythagorean_ut       --> unit test by umock_c
 └── testtools                --> unit test tools
@@ -34,9 +34,15 @@ umock_c_example
     └── umock_c              --> azure umock_c mocking library
 ```
     
+    
 ## References:
+
 1. [Azure/umock-c: A pure C mocking library](https://github.com/Azure/umock-c/tree/master)
 2. [Azure/azure-ctest: A simple portable C test runner](https://github.com/Azure/azure-ctest/tree/master)
 3. [Azure/azure-c-testrunnerswitcher](https://github.com/Azure/azure-c-testrunnerswitcher/tree/master)
+4. [CMake Tutorial - JohnLamp.netJohnLamp.net](https://www.johnlamp.net/cmake-tutorial.html)
+5. [CMake Tutorial | CMake](https://cmake.org/cmake-tutorial/)
+6. [Introduction to CMake by Example | derekmolloy.ie](http://derekmolloy.ie/hello-world-introductions-to-cmake/)
+
 
 [![Build Status](https://travis-ci.org/maxpeng/umock_c_example.svg?branch=master)](https://travis-ci.org/maxpeng/umock_c_example)

@@ -1,12 +1,17 @@
+cmake_minimum_required(VERSION 2.8.11)
+
 set(TEST_RUNNER_C_FILES
     ${CMAKE_CURRENT_LIST_DIR}/src/testmutex.c
 )
 
-set(TEST_RUNNER_C_FILES
+set(TEST_RUNNER_H_FILES
     ${CMAKE_CURRENT_LIST_DIR}/src/macro_utils.h
     ${CMAKE_CURRENT_LIST_DIR}/src/testmutex.h
     ${CMAKE_CURRENT_LIST_DIR}/src/testrunnerswitcher.h
 )
+
+add_library(testrunnerswitcher
+    ${TEST_RUNNER_C_FILES} ${TESTRUNNER_H_FILES})
 
 # this is the include directory
 # the following "set" statetement exports across the project a global variable called

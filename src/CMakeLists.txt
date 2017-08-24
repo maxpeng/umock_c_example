@@ -1,9 +1,10 @@
-cmake_minimum_required(VERSION 3.8)
-project(umock_example)
+cmake_minimum_required(VERSION 2.8.11)
+
+project(umock_example_pythagorean)
 
 set(CMAKE_C_STANDARD 99)
 
-include (CTest)
+include(CTest)
 
 set(SOURCE_FILES main.c pythagorean.c square_root.c)
 
@@ -14,5 +15,4 @@ include_directories(${TEST_RUNNER_INC_DIR})
 include_directories(${CTEST_INC_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/src)
 
-
-add_executable(umock_example ${SOURCE_FILES})
+add_executable(umock_example_pythagorean ${SOURCE_FILES})

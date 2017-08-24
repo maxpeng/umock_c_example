@@ -10,4 +10,33 @@ to mock C files for unit test.
 2. GNU C compiler
 
 
+## Directory Structure
+
+```
+umock_
+├── CMakeLists.txt           --> main cmake configuration files
+├── LICENSE
+├── readme.md
+├── src                      --> pythagoream example
+│   ├── CMakeLists.txt
+│   ├── main.c
+│   ├── pythagorean.c
+│   ├── pythagorean.h
+│   ├── square_root.c        --> dependency of pythagorean.c
+│   └── square_root.h
+├── tests                    --> unit test against pythagoren.c
+│   ├── CMakeLists.txt
+│   └── pythagorean_ut       --> unit test by umock_c
+└── testtools
+    ├── CMakeLists.txt
+    ├── ctest                --> ctest unit test library 
+    ├── test_runner          --> test runner
+    └── umock_c              --> azure umock_c mocking library
+```
+    
+## References:
+1. [Azure/umock-c: A pure C mocking library](https://github.com/Azure/umock-c/tree/master)
+2. [Azure/azure-ctest: A simple portable C test runner](https://github.com/Azure/azure-ctest/tree/master)
+3. [Azure/azure-c-testrunnerswitcher](https://github.com/Azure/azure-c-testrunnerswitcher/tree/master)
+
 [![Build Status](https://travis-ci.org/maxpeng/umock_c_example.svg?branch=master)](https://travis-ci.org/maxpeng/umock_c_example)

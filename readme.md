@@ -8,3 +8,6 @@ to mock C files for unit test.
 
 1. [CMake](https://cmake.org/)
 2. GNU C compiler
+
+
+[![Build Status](https://travis-ci.org/maxpeng/umock_c_example.svg?branch=master)](https://travis-ci.org/maxpeng/umock_c_example)

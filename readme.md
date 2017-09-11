@@ -1,6 +1,6 @@
 # umock_c Example
 
-This is an example of using [Azure/umock-c: A pure C mocking library](https://github.com/Azure/umock-c)
+This is an example about using [Azure/umock-c: A pure C mocking library](https://github.com/Azure/umock-c)
 to mock C files for unit test.
 
 
